@@ -1,0 +1,22 @@
+.homePage {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section {
+  margin-bottom: var(--spacing-3xl);
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
